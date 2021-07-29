@@ -72,7 +72,7 @@ void loop() {
   digitalWrite(LEDBlue, LOW);
 }
 
-
+//On RC522 IRQ pin Interrupt
 void RFIDInt() {
   cardPresent = true;
 }
